@@ -2,7 +2,6 @@
 
 template <typename T>
 void inputArray( T *arr, size_t len) {
-
     for (int i = 0; i < len / sizeof(T); i++) {
         std::cout << "Enter " << i << " element: ";
         std::cin >> arr[i];

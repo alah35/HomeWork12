@@ -19,7 +19,6 @@ int main() {
            //     task3();
             default:
                 std::cout << "Wrong number. Try again\n";
-                num = 0;
         }
     } while (num != -1);
 }
