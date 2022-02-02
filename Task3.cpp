@@ -53,10 +53,15 @@ void quickSort(double *arr, int left, int right) {
 
 void task3() {
     const int SIZE = 15;
-    double arr[SIZE] = {1.2, 2.3, 1.11, 3.4, 5.5, 5.4, 5.3, 5.1,
-                        1.5, 1.25, 5.41, 5.31, 5.11, 1.51, 1.251};
+//    double arr[SIZE] = {1.2, 2.3, 1.11, 3.4, 5.5, 5.4, 5.3, 5.1,
+//                        1.5, 1.25, 5.41, 5.31, 5.11, 1.51, 1.251};
+    double arr[SIZE];
+    inputArray(arr,SIZE);
+
+    std::cout << "Unsorted array: " << std::endl;
     outputArray(arr, SIZE);
     //bubbleSort(arr, sizeof(arr));
     quickSort(arr, 0, SIZE - 1);
+    std::cout << "Sorted array " << std::endl;
     outputArray(arr, SIZE);
 }
