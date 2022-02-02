@@ -15,8 +15,9 @@ int main() {
             case 2:
                 task2();
                 break;
-            //case 3:
-           //     task3();
+            case 3:
+                task3();
+                break;
             default:
                 std::cout << "Wrong number. Try again\n";
         }
