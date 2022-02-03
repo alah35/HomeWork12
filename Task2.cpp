@@ -30,5 +30,5 @@ void task2(){
 
     inputArray(numbers,SIZE);
 
-    std::cout << "Repeating num = " << getRepeatingNumber(numbers, sizeof(numbers));
+    std::cout << "Repeating num = " << getRepeatingNumber(numbers, SIZE);
 }
